@@ -1,7 +1,10 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../paper-spinner/paper-spinner.html">
 <link rel="import" href="../iron-ajax/iron-ajax.html">
+<script src="../KaTeX/dist/katex.min.js"></script>
+<script src="../KaTeX/dist/contrib/auto-render.min.js"></script>
 <script src="../notebookjs/notebook.js"></script>
+
 <!--
 `jupyter-notebook`
 A web component to embed Jupyter notebooks. This component is a wrapper for [notebookjs](https://github.com/jsvine/notebookjs).
@@ -20,6 +23,7 @@ If linking to a notebook file on GitHub, make sure you link to the raw file as s
 -->
 
 <dom-module id="jupyter-notebook">
+  <link rel="stylesheet" href="../KaTeX/dist/katex.min.css">
   <template>
     <style>
       :host {

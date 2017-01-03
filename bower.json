@@ -14,7 +14,7 @@
   "main": "jupyter-notebook.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
-    "notebookjs": "^0.2.6",
+    "notebookjs": "https://github.com/H-Plus-Time/notebookjs.git#d4762163cd",
     "paper-spinner": "PolymerElements/paper-spinner#^1.2.1",
     "iron-ajax": "^1.4.3"
   },
